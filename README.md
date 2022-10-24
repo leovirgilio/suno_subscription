@@ -21,17 +21,10 @@ bin/magento cache:flush
 Desenvolvido com o Devilbox:
 https://github.com/cytopia/devilbox
 
-PHP: 8.1.6
+- PHP: 8.1.6
+- Versão do Magento: 2.4.4
+- ElasticSearch: 7.10.2
+- Apache: 2.4
+- MariaDB: 10.4
+- Redis: 6.2
 
-Versão do Magento: 2.4.4
-
-ElasticSearch: 7.10.2
-
-Apache: 2.4
-
-MariaDB: 10.4
-
-Redis: 6.2
-
-
-## Print-screens
