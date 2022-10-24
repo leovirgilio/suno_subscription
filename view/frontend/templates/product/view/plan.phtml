@@ -1,0 +1,14 @@
+<?php /* @var $block \Suno\Subscription\Block\Product\View\Plan */ ?>
+<?php $plans = $block->getPlans() ?>
+
+<?php if (count($plans) > 0): ?>
+    <h3>Assinaturas disponíveis</h3>
+    <?php foreach ($plans as $plan): ?>
+        <input type="radio" id="<?php echo $plan->getEntityId() ?>" name="subscription_plan"
+               value="<?php echo $plan->getEntityId() ?>">
+        <label for="<?php echo $plan->getEntityId() ?>"><?php echo $plan->getName() ?></label><br>
+    <?php endforeach; ?>
+<?php endif; ?>
+
+
+

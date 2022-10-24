@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Suno_Subscription::operation" title="Suno Subscription" translate="title" module="Suno_Subscription" sortOrder="20" parent="Magento_Sales::sales" resource="Suno_Subscription::operation" />
+        <add id="Suno_Subscription::subscriber" title="Subscribers" module="Suno_Subscription" sortOrder="10" parent="Suno_Subscription::operation" action="suno_subscription/subscriber/index" resource="Suno_Subscription::operation"/>
+    </menu>
+</config>

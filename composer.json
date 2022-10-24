@@ -1,0 +1,20 @@
+{
+  "name": "suno/module-subscription",
+  "version": "1.0.0",
+  "description": "Teste técnico para Magento Software Specialist",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Open Software License (OSL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Suno\\Subscription\\": ""
+    }
+  }
+}

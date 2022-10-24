@@ -1,0 +1,16 @@
+{
+    "suno_subscription_plan": {
+        "column": {
+            "entity_id": true,
+            "name": true,
+            "is_active": true,
+            "billing_frequency": true,
+            "type_id": true,
+            "created_at": true,
+            "updated_at": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
